@@ -29,5 +29,23 @@ Labels:
 - TITLE
 - WORK_OF_ART
 
+Dataset is in **conll** format. Here's an example from the sample for you:
+
+```
+Kuyucak	B-GPE
+batısında	O
+Nazilli	B-GPE
+ilçesi	O
+,	O
+doğusunda	O
+Buharkent	B-GPE
+ilçesiyle	O
+çevrilidir	O
+.	O
+```
+
 Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions. This dataset is also used in our brand new spaCy Turkish packages.
+If you wanna cite, kindly use:
+
+[![DOI](https://zenodo.org/badge/558985121.svg)](https://zenodo.org/badge/latestdoi/558985121)
 
