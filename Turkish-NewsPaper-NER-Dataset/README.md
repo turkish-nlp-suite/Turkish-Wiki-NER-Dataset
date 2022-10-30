@@ -29,5 +29,5 @@ Labels:
 - TITLE
 - WORK_OF_ART
 
-Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions.
+Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions. This dataset is also used in our brand new spaCy Turkish packages.
 
