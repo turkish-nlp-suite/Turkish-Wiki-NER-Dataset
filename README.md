@@ -1,15 +1,50 @@
-# NER-datasets
-
-Welcome to page of Turkish NER datasets. We host NER datasets of several genre in this repo.
+NER dataset from Wikipedia sentences. 20.000 sentences are sampled and re-annotated from [Kuzgunlar NER dataset](https://data.mendeley.com/datasets/cdcztymf4k/1).
 
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+Data split:
 
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+- 18.000 train
+- 1000 test
+- 1000 dev
 
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+Labels:
 
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+- CARDINAL
+- DATE
+- EVENT
+- FAC
+- GPE
+- LANGUAGE
+- LAW
+- LOC
+- MONEY
+- NORP
+- ORDINAL
+- ORG
+- PERCENT
+- PERSON
+- PRODUCT
+- QUANTITY
+- TIME
+- TITLE
+- WORK_OF_ART
+
+Dataset is in **conll** format. Here's an example from the sample for you:
+
+```
+Kuyucak	B-GPE
+batısında	O
+Nazilli	B-GPE
+ilçesi	O
+,	O
+doğusunda	O
+Buharkent	B-GPE
+ilçesiyle	O
+çevrilidir	O
+.	O
+```
+
+Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions. This dataset is also used in our brand new spaCy Turkish packages.
+
+This work is supported by Google Developer Experts Program.
+Part of Duygu 2023 Fall-Winter collection, "Turkish NLP with Duygu"/ "Duygu'yla Türkçe NLP". All rights reserved.
