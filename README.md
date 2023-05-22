@@ -32,17 +32,24 @@ Labels:
 Dataset is in **conll** format. Here's an example from the sample for you:
 
 ```
-Kuyucak	B-GPE
-batısında	O
-Nazilli	B-GPE
-ilçesi	O
+Çekimler	O
+5	B-DATE
+Temmuz	I-DATE
+2005	I-DATE
+tarihlerinde	O
+Reebok	B-FAC
+Stadyum	I-FAC
 ,	O
-doğusunda	O
-Buharkent	B-GPE
-ilçesiyle	O
-çevrilidir	O
+Bolton	B-GPE
+,	O
+İngiltere'de	B-GPE
+yapılmıştır	O
 .	O
 ```
+or even better:
+
+![ingiltere](https://github.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset/assets/8277232/f130a1e9-a3e7-40b9-8204-4917d89607b8)
+
 
 Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions. This dataset is also used in our brand new spaCy Turkish packages.
 
