@@ -36,7 +36,7 @@ Dataset is in **conll** format. Here's an example from the sample for you:
 5	B-DATE
 Temmuz	I-DATE
 2005	I-DATE
-tarihlerinde	O
+tarihinde	O
 Reebok	B-FAC
 Stadyum	I-FAC
 ,	O
