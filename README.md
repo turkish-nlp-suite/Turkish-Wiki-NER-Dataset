@@ -50,6 +50,14 @@ or even better:
 
 ![ingiltere](https://github.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset/assets/8277232/f130a1e9-a3e7-40b9-8204-4917d89607b8)
 
+This dataset is available on [Huggingface](https://huggingface.co/datasets/turkish-nlp-suite/turkish-wikiNER) as well, you can use it as:
+
+```
+from datasets import load_dataset
+
+dataset = load_dataset("turkish-nlp-suite/turkish-wikiNER")
+```
+
 
 Annotations are done by [Co-one](https://co-one.co/). Many thanks to them for their contributions. This dataset is also used in our brand new spaCy Turkish packages.
 
